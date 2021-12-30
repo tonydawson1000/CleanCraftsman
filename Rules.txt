@@ -1,0 +1,5 @@
+1) Write the test that forces you to write the code you already know you want to write.
+
+2) Make it fail. Make it pass. Clean it up.
+
+3) Don't go for the gold.
