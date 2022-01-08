@@ -20,7 +20,7 @@
 
         public void Push(int element)
         {
-            this.elements[size++] = element;
+            elements[size++] = element;
         }
 
         public bool IsEmpty()

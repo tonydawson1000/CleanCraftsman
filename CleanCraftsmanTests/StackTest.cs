@@ -6,13 +6,12 @@ namespace CleanCraftsmanTests
 {
     public class StackTest
     {
+        //Arrange
         private readonly Stack stack = new();
 
         [Fact]
         public void AfterPushingXAndY_WillPopYThenX()
         {
-            //Arrange
-
             //Act
             stack.Push(99);
             stack.Push(88);
@@ -25,8 +24,6 @@ namespace CleanCraftsmanTests
         [Fact]
         public void AfterPushingX_WillPopX()
         {
-            //Arrange
-
             //Act
             stack.Push(99);
 
@@ -44,8 +41,6 @@ namespace CleanCraftsmanTests
         [Fact]
         public void PoppingEmptyStack_ThrowsUnderflow()
         {
-            //Arrange
-
             //Act
             Action act = () => stack.Pop();
 
@@ -59,8 +54,6 @@ namespace CleanCraftsmanTests
         [Fact]
         public void AfterTwoPushes_SizeIsTwo()
         {
-            //Arrange
-
             //Act
             stack.Push(0);
             stack.Push(0);
@@ -72,8 +65,6 @@ namespace CleanCraftsmanTests
         [Fact]
         public void AfterOnePushAndOnePop_IsEmpty()
         {
-            //Arrange
-
             //Act
             stack.Push(0);
             stack.Pop();
@@ -86,8 +77,6 @@ namespace CleanCraftsmanTests
         [Fact]
         public void AfterOnePush_IsNotEmpty()
         {
-            //Arrange
-
             //Act
             stack.Push(0);
 

@@ -3,3 +3,8 @@
 2) Make it fail. Make it pass. Clean it up.
 
 3) Don't go for the gold.
+
+4) Write the simplest, most specific, most degenerate test that will fail.
+	"Degenerate" the most absurdly simple starting point.
+
+5) 
