@@ -1,3 +1,7 @@
+As the Tests get more Specific, the Code get more Generic.
+
+"Stair-Step Tests" - small temporary tests that help you step your way into the tests/code.
+
 1) Write the test that forces you to write the code you already know you want to write.
 
 2) Make it fail. Make it pass. Clean it up.
@@ -7,4 +11,6 @@
 4) Write the simplest, most specific, most degenerate test that will fail.
 	"Degenerate" the most absurdly simple starting point.
 
-5) 
+5) Generalise where possible.
+
+6) When the code feels wrong, fix the design before proceeding.
